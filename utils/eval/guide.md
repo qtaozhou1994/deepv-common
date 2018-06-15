@@ -1,9 +1,9 @@
 ## 运行评测脚本所需参数
 
-1. 第一步 `eval_net.py` 脚本会遍历测试集把每个图片的模型置信度输出与对应的ground truth保存到一个npz文件中
+1. 第一步 `eval_net.py` 脚本会遍历测试集把每个图片的模型置信度输出与对应的ground truth保存到一个npz文件中
 
     - `-g` 选择所使用的GPU序号，若为-1则使用CPU
-    - `-p` caffe模型的定义文件 `.prototxt`
+    - `-p` caffe模型的定义文件 `.prototxt`
     - `-m` caffe模型的参数文件 `.caffemodel`
     - `-i` 测试集的图片及label列表文件
     - `-o` 指定输出的npz文件的目录
